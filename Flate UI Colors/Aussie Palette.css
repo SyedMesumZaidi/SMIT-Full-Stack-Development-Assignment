@@ -1,0 +1,495 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-left, .nav-center, .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  .nav-center{
+    background: #000;
+    border-radius:10px ;
+    height: 40px;
+  }
+ 
+  .back-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .back-button:hover {
+    background-color: #555;
+  }
+  
+  .copy-format {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+  
+  .sound-on {
+    font-size: 14px;
+    color: #333;
+  }
+
+.maincard{
+width: 100%;
+height: 100%;
+display: flex;
+}
+.maincard .card1{
+width: 20%;
+height: 140px;
+color: #f6e58d ;
+background-color: #f6e58d;
+}
+
+.card1 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card1 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card2{
+width: 20%;
+height: 140px;
+background-color: #ffbe76;
+color: #ffbe76;
+}
+.card2 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card2 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card3{
+width: 20%;
+height: 140px;
+background-color: #ff7979;
+color: #ff7979;
+}
+.card3 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card3 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card4{
+width: 20%;
+height: 140px;
+background-color: #badc58;
+color: #badc58;
+}
+.card4 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card4 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card5{
+width: 20%;
+height: 140px;
+background-color:#dff9fb;
+color:#dff9fb;
+}
+.card5 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card5 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card6{
+width: 20%;
+height: 140px;
+background-color:#f9ca24;
+color:#f9ca24;
+}
+.card6 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card6 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card7{
+width: 20%;
+height: 140px;
+background-color:#f0932b;
+color:#f0932b;
+}
+.card7 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card7 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card8{
+width: 20%;
+height: 140px;
+background-color:#eb4d4b;
+color:#eb4d4b;
+}
+.card8 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card8 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card9{
+width: 20%;
+height: 140px;
+background-color:#6ab04c;
+color:#6ab04c;
+}
+.card9 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card9 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card10{
+width: 20%;
+height: 140px;
+background-color:#c7ecee;
+color:#c7ecee;
+}
+.card10 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card10 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card11{
+width: 20%;
+height: 140px;
+background-color:#7ed6df;
+color:#7ed6df;
+}
+.card11 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card11 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card12{
+width: 20%;
+height: 140px;
+background-color:#e056fd;
+color:#e056fd;
+}
+.card12 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card12 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card13{
+width: 20%;
+height: 140px;
+background-color:#686de0;
+color:#686de0;
+}
+.card13 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card13 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card14{
+width: 20%;
+height: 140px;
+background-color:#30336b;
+color:#30336b;
+}
+.card14 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card14 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card15{
+width: 20%;
+height: 140px;
+background-color:#95afc0;
+color:#95afc0;
+}
+.card15 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card15 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card16{
+width: 20%;
+height: 140px;
+background-color:#22a6b3;
+color:#22a6b3;
+}
+.card16 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card16 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card17{
+width: 20%;
+height: 140px;
+background-color:#be2edd;
+color:#be2edd;
+}
+.card17 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card17 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card18{
+width: 20%;
+height: 140px;
+background-color:#4834d4;
+color:#4834d4;
+}
+.card18 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card18 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card19{
+width: 20%;
+height: 140px;
+background-color:#130f40;
+color:#130f40;
+}
+.card19 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card19 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+.maincard .card20{
+width: 20%;
+height: 140px;
+background-color:#535c68;
+color:#535c68;
+}
+.card20 p:hover{
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.card20 h3{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+
+
+@media screen and (max-width:768px) {
+    h3{
+        font-size: 15px;
+    } 
+}
+@media screen and (max-width:426px) {
+    h3{
+        font-size: 7px;
+        margin-top: 30px;
+    } 
+    .nav-center{
+        display: none;
+    }
+}
+
+
