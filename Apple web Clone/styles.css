@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    width: 100%;
+    position: fixed;
+}
+
+header nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    color: lightgray;
+}
+
+.hero {
+    text-align: center;
+    background-image: url(./image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+
+.hero img {
+    margin-top: 300px;
+}
+
+.hero h1 {
+    margin-top: 10px;
+    color: white;
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 15px;
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.hero1 {
+    text-align: center;
+    background-image: url(./image/hero_iphone16pro_avail__fnf0f9x70jiy_large\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+
+.hero1 h1 {
+    margin-top: 10px;
+    color: white;
+    font-size: 60px;
+    padding-top: 40px;
+}
+
+.hero1 p {
+    color: white;
+    font-size: x-large;
+}
+
+.hero1 button {
+    margin-top: 10px;
+    border-radius: 15px;
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.one {
+    background-color: blue;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+.hero2 {
+    text-align: center;
+    background-image: url(./image/hero_valentines_day_2025__dkl6dq1rjhqq_large.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.hero2 p {
+    color: black;
+    font-size: x-large;
+}
+
+.hero2 h1 {
+    color: black;
+    font-size: 80px;
+    padding-top: 350px;
+
+}
+
+.hero2 button {
+    border-radius: 15px;
+    width: 80px;
+    background-color: blue;
+}
+
+.main-one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.box {
+    padding: 10px;
+    text-align: center;
+    background-image: url(./image/grid1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+}
+
+.box1 {
+    padding: 10px;
+    text-align: center;
+    background-image: url(./image/grid2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+}
+
+.box2 {
+    padding: 10px;
+    text-align: center;
+    background-image: url(./image/grid3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+}
+
+.box3 {
+    padding: 10px;
+    text-align: center;
+    background-image: url(./image/grid4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+}
+
+.box4 {
+    padding: 10px;
+    text-align: center;
+    background-image: url(./image/grid5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+}
+
+.box5 {
+    padding: 10px;
+    text-align: center;
+    background-image: url(./image/grid6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+}
+
+.box2 h1 {
+    margin-top: 20px;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.box2 p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 3rem;
+    color: #333;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.box h1 {
+    margin-top: 20px;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.box p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+button {
+    /* background-color: blue; */
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+    cursor: pointer;
+    margin: 10px;
+    /* border: white 1px solid; */
+}
+
+.two {
+    background-color: blue;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+
+
+}
+
+.para p {
+    background-color: rgb(199, 191, 175);
+    text-align: center;
+    padding: 50px;
+    font-size: small;
+    margin-top: 10px;
+}
+
+/* Basic footer styling */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 40px;
+    background-color: lightgray;
+    color: white;
+    text-align: left;
+}
+
+.footer-column {
+    list-style: none;
+}
+
+.footer-column h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    padding-left: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    list-style: none;
+
+}
+
+.footer-column ul li i {
+    margin-right: 8px;
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-column h3 {
+        font-size: 1.2rem;
+    }
+
+    .footer-column ul li {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-one {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero1 h1 {
+        font-size: 3rem;
+    }
+
+    .hero2 h1 {
+        font-size: 2rem;
+    }
+
+    header nav ul li {
+        margin-left: 20px;
+    }
+
+    .hero img {
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header nav ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .hero {
+        height: 400px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero1 h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero1 p {
+        font-size: 1.2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero img {
+        margin-top: 100px;
+    }
+
+    button {
+        width: 120px;
+        height: 35px;
+        font-size: 1rem;
+    }
+
+    .hero1 button {
+        width: 120px;
+        height: 35px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header nav ul li {
+        margin-left: 5px;
+    }
+
+    .hero {
+        height: 350px;
+    }
+
+    .hero1 {
+        height: 350px;
+    }
+
+    .hero2 {
+        height: 550px;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero1 h1 {
+        font-size: 2rem;
+    }
+
+    .hero2 h1 {
+        font-size: 2rem;
+    }
+
+    .hero1 p {
+        font-size: 1rem;
+    }
+
+    .hero2 p {
+        font-size: 1.5rem;
+    }
+
+    .hero img {
+        margin-top: 50px;
+    }
+
+
+    button {
+        width: 150px;
+        height: 30px;
+        font-size: 0.9rem;
+    }
+
+    .hero1 button {
+        width: 100px;
+        height: 30px;
+    }
+}
